@@ -1,0 +1,30 @@
+{
+  "id": "file-hasher",
+  "name": "File Hasher",
+  "version": "1.0.0",
+  "author": "axpnet",
+  "enabled": true,
+  "tools": [
+    {
+      "name": "hash_file",
+      "description": "Calculate cryptographic hashes (MD5, SHA-1, SHA-256, SHA-512) for a local file",
+      "parameters": [
+        {
+          "name": "path",
+          "type": "string",
+          "description": "Absolute path to the file",
+          "required": true
+        },
+        {
+          "name": "algorithm",
+          "type": "string",
+          "description": "Hash algorithm: md5, sha1, sha256, sha512 (default: sha256)",
+          "required": false
+        }
+      ],
+      "dangerLevel": "medium",
+      "command": "bash hash.sh"
+    }
+  ],
+  "hooks": []
+}

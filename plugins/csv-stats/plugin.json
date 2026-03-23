@@ -1,0 +1,36 @@
+{
+  "id": "csv-stats",
+  "name": "CSV Stats",
+  "version": "1.0.0",
+  "author": "axpnet",
+  "enabled": true,
+  "tools": [
+    {
+      "name": "csv_analyze",
+      "description": "Analyze a CSV file: row count, column count, headers, sample rows, and basic statistics",
+      "parameters": [
+        {
+          "name": "path",
+          "type": "string",
+          "description": "Absolute path to the CSV file",
+          "required": true
+        },
+        {
+          "name": "delimiter",
+          "type": "string",
+          "description": "Column delimiter (default: auto-detect)",
+          "required": false
+        },
+        {
+          "name": "sample_rows",
+          "type": "number",
+          "description": "Number of sample rows to return (default: 5)",
+          "required": false
+        }
+      ],
+      "dangerLevel": "medium",
+      "command": "python3 stats.py"
+    }
+  ],
+  "hooks": []
+}

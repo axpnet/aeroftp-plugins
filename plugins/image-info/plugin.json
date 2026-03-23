@@ -1,0 +1,24 @@
+{
+  "id": "image-info",
+  "name": "Image Info",
+  "version": "1.0.0",
+  "author": "axpnet",
+  "enabled": true,
+  "tools": [
+    {
+      "name": "image_metadata",
+      "description": "Extract image metadata: dimensions, format, color mode, file size, and EXIF data",
+      "parameters": [
+        {
+          "name": "path",
+          "type": "string",
+          "description": "Absolute path to the image file",
+          "required": true
+        }
+      ],
+      "dangerLevel": "medium",
+      "command": "python3 info.py"
+    }
+  ],
+  "hooks": []
+}

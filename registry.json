@@ -1,0 +1,74 @@
+[
+  {
+    "id": "file-hasher",
+    "name": "File Hasher",
+    "version": "1.0.0",
+    "author": "axpnet",
+    "description": "Calculate MD5, SHA-1, SHA-256, and SHA-512 hashes for local files. Useful for verifying file integrity after transfers.",
+    "category": "file-management",
+    "downloads": 0,
+    "stars": 0,
+    "repo_url": "https://github.com/axpnet/aeroftp-plugins",
+    "manifest_url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/file-hasher/plugin.json",
+    "files": [
+      {
+        "path": "plugin.json",
+        "url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/file-hasher/plugin.json",
+        "sha256": "875a6038440f995aa0b9c5b95609f87b22f7cb2265a0b60ea2663e485b12febd"
+      },
+      {
+        "path": "hash.sh",
+        "url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/file-hasher/hash.sh",
+        "sha256": "e28bbf89e8b1aefb3064a6d4da6c94c95725090a87777357da04875e38ed2db6"
+      }
+    ]
+  },
+  {
+    "id": "csv-stats",
+    "name": "CSV Stats",
+    "version": "1.0.0",
+    "author": "axpnet",
+    "description": "Analyze CSV files: row/column count, headers, sample data, and basic statistics. Works with any delimiter.",
+    "category": "ai-tools",
+    "downloads": 0,
+    "stars": 0,
+    "repo_url": "https://github.com/axpnet/aeroftp-plugins",
+    "manifest_url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/csv-stats/plugin.json",
+    "files": [
+      {
+        "path": "plugin.json",
+        "url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/csv-stats/plugin.json",
+        "sha256": "11ae645615939aaa46fce833d48e3665a0a3ebd09af41858053b525bec4328a9"
+      },
+      {
+        "path": "stats.py",
+        "url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/csv-stats/stats.py",
+        "sha256": "34c1deeb30a4473540b56f6f0f5bfcaf25fde1954e345f6cd28a28fec5568db2"
+      }
+    ]
+  },
+  {
+    "id": "image-info",
+    "name": "Image Info",
+    "version": "1.0.0",
+    "author": "axpnet",
+    "description": "Extract image metadata: dimensions, format, color space, file size, and EXIF data when available.",
+    "category": "file-management",
+    "downloads": 0,
+    "stars": 0,
+    "repo_url": "https://github.com/axpnet/aeroftp-plugins",
+    "manifest_url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/image-info/plugin.json",
+    "files": [
+      {
+        "path": "plugin.json",
+        "url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/image-info/plugin.json",
+        "sha256": "332e17ace7dd369a0dbcd69ce96abbe43b33d35b5c73b614faded7e94353e554"
+      },
+      {
+        "path": "info.py",
+        "url": "https://raw.githubusercontent.com/axpnet/aeroftp-plugins/main/plugins/image-info/info.py",
+        "sha256": "6742834316f7b7d8f533a1252051d950a7f3708046a93d462612b0c013b99b67"
+      }
+    ]
+  }
+]
